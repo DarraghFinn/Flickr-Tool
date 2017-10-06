@@ -1,0 +1,167 @@
+
+body {
+    background-color: #000000;
+}
+
+.thubnails {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.inactive_thumnails{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.active_thumnails{
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#outerdiv{
+    position: relative;
+    overflow: hidden;
+    background-color:  white;
+    width:70%;
+    height: 90%;
+    border-radius: 25px;
+    float: right;
+    margin: 2%;
+}
+
+#innerdiv{
+    position: relative;
+    height: 30%;
+    background-color: rgba(221, 221, 221, 0.66);
+}
+
+#sliderdiv{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+#mainImagediv{
+    position: relative;
+    width: 90%;
+    margin-top:2%;
+    height: 66%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    text-align:center;
+
+}
+
+#mainimage{
+    height: 100%;
+    border-radius: 15px;
+    font-weight: bold;
+    border: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A9A9A9;
+}
+
+.heading-style{
+    margin-left: 2cm;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entringTags-style{
+    float:left;
+    width:25%;
+}
+
+.dropdown-style{
+    width: 70%;
+    height: 5%;
+    position: relative;
+    outline: none;
+    margin-left: 2cm;
+    border-radius: 7px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tags-style{
+    width: 40%;
+    height: 5%;
+    position: relative;
+    outline: none;
+    margin-left: 2cm;
+    border-radius: 4px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-style{
+    width: 70%;
+    height: 6%;
+    position: relative;
+    outline: none;
+    margin-left: 2cm;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.map-style{
+    width: 70%;
+    height: 39%;
+    position: relative;
+    outline: none;
+    margin-left: 2cm;
+    border: 2px solid #ff0000;
+}
+
+.slider-height{
+    height: 150px;
+}
+.leftArrow{
+    position: fixed;
+    width: 4%;
+    height: 10%;
+    opacity: 0;
+    background-image: url("right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: azure;
+    /* float: right; */
+    text-align: center;
+    /* height: inherit; */
+    padding: 20 0 42px 0;
+    top: 9%;
+    border-radius: 5%;
+}
+
+.rightArrow{
+    right: 35px;
+    position: fixed;
+    background-image: url("left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 4%;
+    height: 10%;
+    opacity: 0;
+    background-color: azure;
+    text-align: center;
+    padding: 20 0 42px 0;
+    top: 9%;
+    border-radius: 5%;
+
+}
+
+a.rightArrow:hover{
+    opacity: 0.7;
+}
+a.leftArrow:hover{
+    opacity: 0.7;
+}
+
+.loading {
+    background: transparent url("loading_spinner.gif") center no-repeat;
+}
